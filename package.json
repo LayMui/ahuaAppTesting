@@ -7,11 +7,17 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "cleanup": "rm -rf node_modules && yarn cache clean --force && watchman watch-del-all"
   },
   "dependencies": {
+    "@yaradigitallabs/ahua-react-native": "^1.21.0",
     "react": "18.2.0",
-    "react-native": "0.73.2"
+    "react-native": "0.73.2",
+    "react-native-svg": "^13.14.0",
+    "react-native-svg-transformer": "1.0.0",
+    "react-native-pager-view": "6.1.2",
+    "react-native-safe-area-view": "^1.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -29,6 +35,9 @@
     "prettier": "2.8.8",
     "react-test-renderer": "18.2.0",
     "typescript": "5.0.4"
+  },
+  "resolutions": {
+    "react-native-svg": "^13.14.0" 
   },
   "engines": {
     "node": ">=18"
