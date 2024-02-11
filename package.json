@@ -10,6 +10,7 @@
     "test": "jest",
     "cleanup": "rm -rf node_modules && yarn cache clean --force && watchman watch-del-all"
   },
+  
   "dependencies": {
     "@yaradigitallabs/ahua-react-native": "^1.22.0",
     "react": "18.2.0",
@@ -31,9 +32,9 @@
     "@react-native/typescript-config": "0.73.1",
     "@types/react": "^18.2.6",
     "@types/react-test-renderer": "^18.0.0",
-    "babel-jest": "^29.6.3",
+    "babel-jest": "^29.7.0",
     "eslint": "^8.19.0",
-    "jest": "^29.6.3",
+    "jest": "^29.7.0",
     "prettier": "2.8.8",
     "react-test-renderer": "18.2.0",
     "typescript": "5.0.4"

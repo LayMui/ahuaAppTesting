@@ -5,8 +5,6 @@ import testProperties from "./utils/testProperties";
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 
-
-
 const App = () => {
   const [count, setCount] = useState(0);
 
@@ -25,7 +23,7 @@ const onPress = () => setCount(prevCount => prevCount + 1);
         <Text>Press Here</Text>
       </TouchableOpacity>
     </View>
-     </GestureHandlerRootView>
+      </GestureHandlerRootView>
   )
 }
 
